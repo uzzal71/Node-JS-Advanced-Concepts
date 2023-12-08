@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-12-08T20:37:24.276Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="iCyk0_34mV3y2D3a05Ew" version="22.1.2" type="device" pages="29">
+<mxfile host="Electron" modified="2023-12-08T20:50:44.308Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="LJXSSCjITZm8y5M2kZvq" version="22.1.2" type="device" pages="30">
   <diagram name="01" id="U2IS8um8G20CR3bTAX1f">
     <mxGraphModel dx="1364" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1785,6 +1785,44 @@
         </mxCell>
         <mxCell id="CSp9lp663IG7h8i4_NoV-30" value="Clear" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="680" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="G4JtoFHsBrzi0FXBQMaU" name="30">
+    <mxGraphModel dx="1364" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JM3O-BiC8UEFue0W36ms-1" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="750" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="JM3O-BiC8UEFue0W36ms-2" value="" style="line;strokeWidth=4;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="10" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="JM3O-BiC8UEFue0W36ms-3" value="Question" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JM3O-BiC8UEFue0W36ms-4" value="Answer" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="490" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JM3O-BiC8UEFue0W36ms-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Can we use the threadpool for&lt;br&gt;javascript code or cash only&lt;br&gt;nodeJS functions use it&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JM3O-BiC8UEFue0W36ms-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;What functions in node std library&lt;br&gt;use the threadpool?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JM3O-BiC8UEFue0W36ms-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;How does this threadpool stuff fit&lt;br&gt;into the event loop?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JM3O-BiC8UEFue0W36ms-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Tasks running in the threadpool&lt;br&gt;are the &#39;pendingOperations&#39; in&lt;br&gt;our code example.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JM3O-BiC8UEFue0W36ms-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;All &#39;fs&#39;&#39; module functions. Some&lt;br&gt;crypto stuff. Depends on OS&lt;br&gt;(windows vs unix based)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JM3O-BiC8UEFue0W36ms-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;We can write custom JS that&lt;br&gt;uses the thread pool.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="320" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

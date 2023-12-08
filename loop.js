@@ -17,7 +17,7 @@ function shuldContinue() {
 // Entire body executes in one 'tick'
 while(shuldContinue()) {
     // 1) Node looks at pendingTimers and sees if any functions
-    // are ready to be called
+    // are ready to be called. setTimeout, setInterval
 
     // 2) Node looks at pendingOSTasks and pendingOperations
     // and calls relevant callbacks
@@ -26,6 +26,9 @@ while(shuldContinue()) {
     // - a new pendingOSTasks is done
     // - a new pendingOperations is done
     // a timer is about to complete
+
+    // 4) Look at pendingTimers. Call any setImmediate
+    // 5) Handle any 'close' events
 }
 
 

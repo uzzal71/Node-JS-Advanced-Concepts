@@ -18,8 +18,8 @@ app.get('/', (req, res) => {
         }
     });
 
-    worker.onmessage = function() {
-
+    worker.onmessage = function(myCounter) {
+        console.log(myCounter);
     }
 
     worker.postMessage();

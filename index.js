@@ -9,7 +9,9 @@ const app = express();
 app.get('/', (req, res) => {
     const worker = new Worker(function() {
         this.onmessage = function() {
-            
+
+
+            postMessage();
         }
     });
 

@@ -8,8 +8,14 @@ const app = express();
 
 app.get('/', (req, res) => {
     const worker = new Worker(function() {
-        
+
     });
+
+    worker.onmessage = function() {
+
+    }
+
+    worker.postMessage();
 });
 
 app.get('/fast', (req, res) => {

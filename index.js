@@ -7,7 +7,9 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    
+    const worker = new Worker(function() {
+        
+    });
 });
 
 app.get('/fast', (req, res) => {

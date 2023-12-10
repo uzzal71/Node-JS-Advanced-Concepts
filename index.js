@@ -2,6 +2,7 @@
 // and do nothing else
 const express = require('express');
 const crypto = require('crypto');
+const Worker = require('webworker-threads').Worker;
 const app = express();
 
 

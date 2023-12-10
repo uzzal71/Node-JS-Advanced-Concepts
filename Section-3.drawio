@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2023-12-10T18:38:55.153Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="J43nKWOaDFymcQuradOT" version="22.1.2" type="device">
+  <diagram name="Page-1" id="JI0INZiV9-T413c6HQ4u">
+    <mxGraphModel dx="1364" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="Tf5MG_XYltx3EEBvqJ8y-1" target="Tf5MG_XYltx3EEBvqJ8y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Existing, Plain NodeJs App.&lt;br&gt;Has basic routing and auth&lt;br&gt;setup.&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-3" value="We&#39;re going to&lt;br&gt;start with this" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Soild, Production Ready App&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="230" y="478" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-7" value="And end up&lt;br&gt;with this" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Redis-Backend Caching&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Browser Based Integration Testing&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Continuous Integration Setup&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-11" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Scalable File/Image Upload&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="870" y="240" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-13" value="Then add this &lt;br&gt;stuff in" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="920" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;+&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="479" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;+&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="479" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;+&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="479" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf5MG_XYltx3EEBvqJ8y-17" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;+&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="479" y="360" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

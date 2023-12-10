@@ -9,9 +9,12 @@ const app = express();
 app.get('/', (req, res) => {
     const worker = new Worker(function() {
         this.onmessage = function() {
+            let counter = 0;
+            while(counter < 1e9) { // 10000000000000
+                counter++;
+            }
 
-
-            postMessage();
+            postMessage(counter);
         }
     });
 
